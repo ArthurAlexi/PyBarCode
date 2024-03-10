@@ -1,0 +1,6 @@
+from flask import Flask, request, jsonify
+from src.routes.tag_routes import tags_routes_bp
+
+app = Flask(__name__)
+
+app.register_blueprint(tags_routes_bp)

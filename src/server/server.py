@@ -1,4 +1,4 @@
-from flask import Flask, request, jsonify
+from flask import Flask
 from src.routes.tag_routes import tags_routes_bp
 
 app = Flask(__name__)

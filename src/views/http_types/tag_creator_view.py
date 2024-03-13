@@ -2,6 +2,7 @@ from src.views.http_types.http_request import HttpRequest
 from src.views.http_types.http_response import HttpResponse
 from src.services.tag_creator_service import TagCreatorService
 
+
 class TagCreatorView:
     
     def __init__(self) -> None:

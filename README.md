@@ -7,4 +7,11 @@
     
     # comando salvar as instalações das Libs
     .venv\scripts\pip3 freeze > requirements.txt
+
+    # comando para instalar as Libs
+    pip3 install requirements.txt
+
+    # rodar os testes
+    pytest .
+    pytest -s -v
 ```
